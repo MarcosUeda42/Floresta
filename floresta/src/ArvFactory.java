@@ -12,4 +12,8 @@ public class ArvFactory {
         }
         return tipo;
     }
+
+    public int getTotalTipos() {
+        return Floresta.size();
+    }
 }
