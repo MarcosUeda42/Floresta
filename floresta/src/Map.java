@@ -31,4 +31,8 @@ public class Map {
     public List<Arvore> getArvores() {
         return arvores;
     }
+
+    public int getFactorySize() {
+        return factory.getTotalTipos();
+    }
 }
